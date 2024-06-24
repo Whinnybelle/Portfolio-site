@@ -1,0 +1,170 @@
+@font-face {
+    font-family: logofont;
+    src: url(font/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+
+@font-face {
+    font-family: textfont;
+    src: url(font\Playwrite_PL/secodfont.ttf);
+}
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav {
+
+
+
+    padding: 1rem;
+    
+
+}
+
+
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: right;
+    margin-top: -3%;
+
+}
+
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+    margin-right: 85px;
+    font-family: textfont;
+    transition: all ease 0.3s;
+
+}
+
+
+.navitems li a:hover{
+    font-size: 1rem;
+    color: #6c63ff;
+
+}
+body {
+    background-color: black;
+}
+
+.logo{
+display: flex;
+justify-content: left;
+font-weight: 800;
+color: white;
+font-size: 15px;
+font-family: logofont;
+color: #6c63ff;
+}
+
+h1{
+    font-family: textfont;
+}
+
+hr{
+    height: 0.5px;
+    background-color: #6c63ff;
+    border: none;
+
+}
+
+.arrowandtext{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: textfont;
+    color: white;
+
+}
+
+.jobtitle{
+    color: #6c63ff;
+}
+
+.firstbutton{
+padding: 12px;
+background-color: #6c63ff;
+border-radius: 25px;
+border: none;
+width: 120px;
+color: white;
+font-size: 16px;
+}
+
+.secondbutton{
+    padding: 12px;
+    background-color: #6c63ff;
+    border-radius: 25px;
+    border: none;
+    width: 170px;
+    color: white;
+    font-size: 16px;
+    margin-left: 1%;
+}
+
+.arrowandtext{
+    display: flex;
+    
+}
+
+.arrow{
+    margin-top: 6%;
+}
+
+.buttons{
+    margin-top: -4%;
+    margin-left: 6%;
+    
+}
+
+.float{
+    float: right;
+    height: 500px;
+    margin-top: -300px;
+}
+
+.homepage{
+    height: 100vh;
+}
+
+.Abttext{
+    margin-left: 7%;
+}
+
+.Abttext h1{
+    font-size: 4rem;
+    color: white;
+    font-family: textfont;
+
+}
+
+.Me{
+    color: #6c63ff;
+}
+
+.Abttext article{
+    font-size: 18px;
+    font-family: Textfont;
+    color: white;
+    float: left;
+}
+
+.aboutmain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
