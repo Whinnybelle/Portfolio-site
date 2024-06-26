@@ -17,6 +17,11 @@ nav {
 
 
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    border-bottom: 1px solid #6c63ff;
+    background-color: black;
     
 
 }
@@ -34,6 +39,7 @@ nav ul {
     display: flex;
     justify-content: right;
     margin-top: -3%;
+    margin-left: 70%;
 
 }
 
@@ -88,6 +94,7 @@ hr{
     font-weight: 800;
     font-family: textfont;
     color: white;
+    margin-top: 10%;
 
 }
 
@@ -134,7 +141,7 @@ font-size: 16px;
 .float{
     float: right;
     height: 500px;
-    margin-top: -300px;
+    margin-top: -350px;
 }
 
 .homepage{
@@ -167,4 +174,15 @@ font-size: 16px;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+.leftside{
+    font-size: 4rem;
+    color: white;
+    font-family: textfont;
+    margin-left: 4%;
+}
+
+.mind{
+    color: #6c63ff;
 }
