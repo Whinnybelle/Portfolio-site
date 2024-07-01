@@ -190,6 +190,7 @@ font-size: 16px;
 
 .agreement{
     margin-left: 4%;
+    
 }
 
 .contactcontent{
@@ -210,25 +211,25 @@ font-size: 16px;
 input{
     width: 288px;
     height: 48px;
-    border-radius: 5%;
-    background-color: #6c63ff;
+    border-radius: 16px;
+    background-color: grey;
     border: none;
     padding-left: 12px;
-    opacity: 0.5%;
     margin-top: 12px;
     color: white;
 }
 
 textarea{
 width: 594px;
-height: ;
-border-radius: 5%;
-background-color: #6c63ff;
+height:200px ;
+border-radius: 16px;
+background-color: grey;
 border: none;
 padding-left: 12px;
-opacity: 0.5%;
 margin-top: 12px;
 color: white;
+padding-top: 12px;
+
 }
 
 label{
@@ -249,17 +250,39 @@ label{
     color: white;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
     }
 
-    footer{
+    .footerend{
         display: flex;
         justify-content: center;
-        padding-top: 10%;
+        padding-top: 6%;
+        margin-top: 7%;
+        width: 100%;
         border-top: 1px solid #6c63ff;
     }
     
+    .footerend a p{
+        color: white;
+        font-family: logofont;
+        font-weight: 200;
+        margin-left: 5%;
+    }
+
+    .footerend a{
+        color: white;
+        text-decoration: none;
+    }
 
     .socials{
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconbackground{
+        background-color: ;
+        height: 50px;
+        width: 43px;
         display: flex;
         justify-content: center;
     }
