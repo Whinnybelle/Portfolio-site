@@ -150,6 +150,7 @@ font-size: 16px;
 
 .Abttext{
     margin-left: 7%;
+    padding-top: 10%;
 }
 
 .Abttext h1{
@@ -181,7 +182,7 @@ font-size: 16px;
     color: white;
     font-family: textfont;
     margin-left: 4%;
-    padding-top: 9%;
+    padding-top: 10%;
 }
 
 .mind{
@@ -191,6 +192,10 @@ font-size: 16px;
 .agreement{
     margin-left: 4%;
     
+}
+
+.aboutmain img{
+    padding-top: 10%;
 }
 
 .contactcontent{
@@ -212,7 +217,7 @@ input{
     width: 288px;
     height: 48px;
     border-radius: 16px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.297);
     border: none;
     padding-left: 12px;
     margin-top: 12px;
@@ -223,7 +228,7 @@ textarea{
 width: 594px;
 height:200px ;
 border-radius: 16px;
-background-color: grey;
+background-color: rgba(128, 128, 128, 0.297);
 border: none;
 padding-left: 12px;
 margin-top: 12px;
@@ -236,6 +241,7 @@ label{
     color: white;
     font-family: textfont;
     font-size: 20px;
+    
 }
 
 
@@ -246,7 +252,6 @@ label{
     background-color: #ffb228;
     border-radius: 25px;
     border: none;
-    width: 120px;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -277,12 +282,29 @@ label{
     .socials{
         display: flex;
         justify-content: center;
+        margin-bottom: 7%;
     }
 
     .iconbackground{
-        background-color: ;
-        height: 50px;
-        width: 43px;
+        background-color: rgba(128, 128, 128, 0.297);
+        
+    
+        height: 30px;
+        width: 23px;
         display: flex;
         justify-content: center;
+        padding-top: 17px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin: 6px;
+        border-radius: 80px;
+    }
+
+
+    .Copyright{
+        text-align: end;
+        margin-right: 7%;
+        color: white;
+        font-family: logofont;
+
     }
