@@ -43,7 +43,9 @@ nav ul {
 
 }
 
-
+ul img{
+    display: none;
+}
 
 nav a {
 
@@ -306,5 +308,66 @@ label{
         margin-right: 7%;
         color: white;
         font-family: logofont;
+
+    }
+
+    @media screen and (max-width:480px){
+        nav li {
+
+        
+        
+            
+        
+            display: none;
+            
+        }
+
+        ul img{
+            display: block;
+            margin-right: 120%;
+        
+        }
+
+        .contactcontent{
+            display: block;
+    
+        }
+
+
+        .aboutmain{
+            display: block;
+            
+        }
+        .arrowandtext{
+            font-size: 55px;
+            font-weight: 600;
+            font-family: textfont;
+            color: white;
+            margin-top: 30%;
+            margin-left: 0;
+        
+        }
+
+        .arrow{
+            margin-top: 50%;
+            height: 200px;
+        }
+
+        .float{
+            float: right;
+            height: 500px;
+            margin-top: -20px;
+            
+        }
+
+        .illustration{
+            margin-left: 100%;
+        }
+
+        .buttons{
+            margin-top: -4%;
+            margin-left: 15%;
+            
+        }
 
     }
